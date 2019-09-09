@@ -1,0 +1,27 @@
+* {font-size: 1em; margin: 0}
+
+body {font-family: Helvetica, Arial, sans-serif}
+
+.c {text-align: center}
+
+
+nav {
+    background: #fff;
+    box-shadow: 0 0 .2em rgba(0,0,0,.5);
+    padding: .5em;
+    position: fixed;
+    top: .3em; left: 0; right: 0;
+}
+
+a {display: inline-block; padding: .2em;}
+
+
+[id^=section] {
+    height: 300px;
+    padding: 5em;
+}
+#section1 {background: #fed; color: #400}
+#section2 {background: #ffe; color: #440}
+#section3 {background: #efe; color: #040}
+#section4 {background: #eff; color: #044}
+#section5 {background: #def; color: #004}

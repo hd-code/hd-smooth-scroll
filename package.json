@@ -1,0 +1,20 @@
+{
+  "name": "hd-smooth-scroll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hd-smooth-scroll.min.js",
+  "files": [
+    "hd-smooth-scroll.min.js"
+  ],
+  "scripts": {
+    "start": "npm test",
+    "test": "npm minify && open -a Firefox test/index.html",
+    "minify": "uglifyjs hd-smooth-scroll.js -o hd-smooth-scroll.min.js --comments /^!/"
+  },
+  "keywords": [],
+  "author": "Hannes Dröse",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "uglify-js": "^3.6.0"
+  }
+}
