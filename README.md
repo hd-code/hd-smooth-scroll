@@ -1,12 +1,21 @@
 # HD-Smooth-Scroll
 
-Adds smooth scrolling to hashtag links on a website. This is a PlainJS solution. No JQuery required.
+Enable smooth scroll effect on your website. This is a PlainJS solution. No JQuery required.
+
+Smooth scrolling describes a behavior, when a link that references an element on the same webpage is clicked on. These links usually contain a hashtag, plus the id of the referenced section. Normally, on clicking such a hashtag-link, the browser jumps immediately to the desired section. Smooth scroll causes the window to move towards the section with a smooth transistion.
+
+    <!-- on clicking this link, the browser will jump to the element, with id="section2" -->
+    <a href="#section2">Go to section 2</a>
+    
+    ...
+
+    <div id="section2"></div>
 
 ## Installation
 
-Just download the minified file [download](./hd-smooth-scroll.min.js)
+Just download the minified file: [download](./hd-smooth-scroll.min.js)
 
-And add it to your website. It doesn't matter where you put it. However putting all JS-Files at the bottom of the HTML-document is recommended.
+Then add it to your website. It doesn't matter where you put it. However putting all JS-Files at the bottom of the HTML-document is recommended.
 
 
     <!DOCTYPE html>
@@ -20,4 +29,8 @@ And add it to your website. It doesn't matter where you put it. However putting 
 
 ## Usage
 
-This plugin works automatically! Just integrate it to your website and it will automatically scroll smoothly to a certain section if the corresponding hashtag-link was clicked.
+This plugin works automatically! Just integrate it to your website and smooth scrolling will work automatically for all links, that reference an element on the page.
+
+*Note:* If a link references just the current page, the window will scroll to the top of the page.
+
+    <a href="#">To Page Top</a>

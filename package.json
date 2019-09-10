@@ -1,7 +1,7 @@
 {
   "name": "hd-smooth-scroll",
   "version": "1.0.0",
-  "description": "",
+  "description": "Enables smooth scroll effect on a website for all browsers. PlainJS implementation – no JQuery or other libraries required.",
   "main": "hd-smooth-scroll.min.js",
   "files": [
     "hd-smooth-scroll.min.js"
@@ -11,8 +11,8 @@
     "test": "npm minify && open -a Firefox test/index.html",
     "minify": "uglifyjs hd-smooth-scroll.js -o hd-smooth-scroll.min.js --comments /^!/"
   },
-  "keywords": [],
-  "author": "Hannes Dröse",
+  "keywords": ["smooth scroll","hashtag links","PlainJS","no JQuery"],
+  "author": "Hannes Dröse <office.hd@gmx.net>",
   "license": "UNLICENSED",
   "devDependencies": {
     "uglify-js": "^3.6.0"
