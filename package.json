@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "start": "npm test",
-    "test": "npm minify && open -a Firefox test/index.html",
+    "test": "npm run minify && open -a Firefox test/index.html",
     "minify": "uglifyjs hd-smooth-scroll.js -o hd-smooth-scroll.min.js --comments /^!/"
   },
   "keywords": ["smooth scroll","hashtag links","PlainJS","no JQuery"],

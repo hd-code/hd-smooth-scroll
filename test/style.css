@@ -13,7 +13,7 @@ nav {
     top: .3em; left: 0; right: 0;
 }
 
-a {display: inline-block; padding: .2em;}
+a {display: inline-block; padding: .2em; color: inherit}
 
 
 [id^=section] {
