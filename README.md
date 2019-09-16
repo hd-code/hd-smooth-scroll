@@ -25,7 +25,7 @@ Then add it to your website. It doesn't matter where you put it. However putting
     <head>...</head>
     <body>
         ...
-        <script src="hd-smooth-scroll.min.js">
+        <script src="hd-smooth-scroll.min.js"></script>
     </body>
 <html>
 ```
