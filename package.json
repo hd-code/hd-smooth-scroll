@@ -9,7 +9,7 @@
   "scripts": {
     "start": "npm test",
     "test": "npm run minify && open -a Firefox test/index.html",
-    "minify": "uglifyjs hd-smooth-scroll.js -o hd-smooth-scroll.min.js --comments /^!/"
+    "minify": "uglifyjs hd-smooth-scroll.js -o hd-smooth-scroll.min.js -mc --comments /^!/"
   },
   "keywords": ["smooth scroll","hashtag links","PlainJS","no JQuery"],
   "author": "Hannes Dröse <office.hd@gmx.net>",
