@@ -1,4 +1,4 @@
-/*! HD-Smooth-Scroll v1.0.0 | github.com/hd-code/hd-smooth-scroll | © Hannes Dröse | office.hd@gmx.net */
+/*! HD-Smooth-Scroll v1.0.0 | github.com/hd-code/hd-smooth-scroll | © Hannes Dröse */
 document.addEventListener('DOMContentLoaded', function() {
     var links = document.links
     for (var i = 0, ie = links.length; i < ie; i++) f(links[i])

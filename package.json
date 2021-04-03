@@ -12,7 +12,7 @@
     "minify": "uglifyjs hd-smooth-scroll.js -o hd-smooth-scroll.min.js -mc --comments /^!/"
   },
   "keywords": ["smooth scroll","hashtag links","PlainJS","no JQuery"],
-  "author": "Hannes Dröse <office.hd@gmx.net>",
+  "author": "Hannes Dröse",
   "license": "UNLICENSED",
   "devDependencies": {
     "uglify-js": "^3.6.0"
