@@ -1,15 +1,7 @@
 {
   "name": "hd-smooth-scroll",
   "version": "1.0.1",
-  "description": "Enables smooth scroll effect on a website for all browsers. PlainJS implementation – no JQuery or other libraries required.",
-  "keywords": [
-    "smooth scroll",
-    "hashtag links",
-    "PlainJS",
-    "no JQuery"
-  ],
-  "author": "Hannes Dröse",
-  "license": "UNLICENSED",
+  "private": true,
   "main": "hd-smooth-scroll.min.js",
   "scripts": {
     "all": "run-s build format minify",
