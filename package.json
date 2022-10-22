@@ -1,20 +1,30 @@
 {
   "name": "hd-smooth-scroll",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enables smooth scroll effect on a website for all browsers. PlainJS implementation – no JQuery or other libraries required.",
-  "main": "hd-smooth-scroll.min.js",
-  "files": [
-    "hd-smooth-scroll.min.js"
+  "keywords": [
+    "smooth scroll",
+    "hashtag links",
+    "PlainJS",
+    "no JQuery"
   ],
-  "scripts": {
-    "start": "npm test",
-    "test": "npm run minify && open -a Firefox test/index.html",
-    "minify": "uglifyjs hd-smooth-scroll.js -o hd-smooth-scroll.min.js -mc --comments /^!/"
-  },
-  "keywords": ["smooth scroll","hashtag links","PlainJS","no JQuery"],
   "author": "Hannes Dröse",
   "license": "UNLICENSED",
+  "main": "hd-smooth-scroll.min.js",
+  "scripts": {
+    "all": "run-s build format minify",
+    "browser": "open test/index.html",
+    "build": "tsc hd-smooth-scroll.ts",
+    "build:watch": "npm run build -- --watch",
+    "format": "prettier --write hd-smooth-scroll.[jt]s test",
+    "minify": "minify hd-smooth-scroll.js > hd-smooth-scroll.min.js",
+    "start": "npm run all",
+    "test": "run-p build:watch browser"
+  },
   "devDependencies": {
-    "uglify-js": "^3.6.0"
+    "minify": "^9.1.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
   }
 }

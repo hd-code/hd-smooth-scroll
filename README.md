@@ -1,10 +1,8 @@
 # HD-Smooth-Scroll
 
-**This script is now maintained in another repository. Please go to <https://github.com/hd-code/web-snippets> for the current active version.**
-
 Enable smooth scroll effect on your website. This is a PlainJS solution. No JQuery required.
 
-Smooth scrolling describes a behavior, when a link that references an element on the same webpage is clicked on. These links usually contain a hashtag, plus the id of the referenced section. Normally, on clicking such a hashtag-link, the browser jumps immediately to the desired section. Smooth scroll causes the window to move towards the section with a smooth transistion.
+Smooth scrolling describes a behavior, when a link that references an element on the same webpage is clicked on. These links usually contain a hashtag, plus the id of the referenced section. Normally, on clicking such a hashtag-link, the browser jumps immediately to the desired section. Smooth scroll causes the window to move towards the section with a smooth transition.
 
 ``` HTML
 <!-- on clicking this link, the browser will jump to the element, with id="section2" -->

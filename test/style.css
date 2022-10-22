@@ -1,27 +1,45 @@
-* {font-size: 1em; margin: 0}
+* {
+    box-sizing: border-box;
+    font-size: 1em;
+    margin: 0;
+}
 
-body {font-family: Helvetica, Arial, sans-serif}
-
-.c {text-align: center}
-
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
 
 nav {
-    background: #fff;
-    box-shadow: 0 0 .2em rgba(0,0,0,.5);
-    padding: .5em;
+    background: #fffc;
+    box-shadow: 0 0 0.2em #0008;
+    padding: 1em;
     position: fixed;
-    top: .3em; left: 0; right: 0;
+    top: 0.5em;
+    left: 0;
+    right: 0;
 }
 
-a {display: inline-block; padding: .2em; color: inherit}
-
-
-[id^=section] {
-    height: 300px;
-    padding: 5em;
+a {
+    display: inline-block;
+    color: inherit;
+    margin: 0.2em;
 }
-#section1 {background: #fed; color: #400}
-#section2 {background: #ffe; color: #440}
-#section3 {background: #efe; color: #040}
-#section4 {background: #eff; color: #044}
-#section5 {background: #def; color: #004}
+
+[id^="section"] {
+    height: 500px;
+    padding: 7em 1em 0;
+}
+#section1 {
+    background: #fed;
+}
+#section2 {
+    background: #ffe;
+}
+#section3 {
+    background: #efe;
+}
+#section4 {
+    background: #eff;
+}
+#section5 {
+    background: #def;
+}
